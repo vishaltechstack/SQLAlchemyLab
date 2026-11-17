@@ -13,28 +13,28 @@ A hands-on, modular **MySQL 8.0+ curriculum** designed to take you from creating
 
 ```text
 mysql-mastery-tutorial/
-├── 01_database_setup.sql
-├── 02_tables_and_data_types.sql
-├── 03_constraints_and_keys.sql
-├── 04_insert_data.sql
-├── 05_select_and_filtering.sql
-├── 06_sorting_and_pagination.sql
-├── 07_update_and_delete.sql
-├── 08_aggregate_functions_and_grouping.sql
-├── 09_joins_explained.sql
-├── 10_subqueries.sql
-├── 11_views.sql
-├── 12_indexes_and_performance.sql
-├── 13_stored_procedures_and_functions.sql
-├── 14_triggers.sql
-├── 15_transactions_acid.sql
-├── 16_ctes_and_window_functions.sql
-├── 17_database_normalization.sql
-├── 18_built_in_functions_and_case.sql
-├── 19_set_operations.sql
-├── 20_json_operations.sql
-├── 21_users_and_permissions.sql
-├── 22_scheduled_events_and_locks.sql
+├── database_setup.sql
+├── tables_and_data_types.sql
+├── constraints_and_keys.sql
+├── insert_data.sql
+├── select_and_filtering.sql
+├── sorting_and_pagination.sql
+├── update_and_delete.sql
+├── aggregate_functions_and_grouping.sql
+├── joins_explained.sql
+├── subqueries.sql
+├── views.sql
+├── indexes_and_performance.sql
+├── stored_procedures_and_functions.sql
+├── triggers.sql
+├── transactions_acid.sql
+├── ctes_and_window_functions.sql
+├── database_normalization.sql
+├── built_in_functions_and_case.sql
+├── set_operations.sql
+├── json_operations.sql
+├── users_and_permissions.sql
+├── scheduled_events_and_locks.sql
 ├── projects/                                  # End-to-End SQL Case Studies
 │   ├── Airline Reservation & Flight Analytics/
 │   ├── Banking Customer Transactions/
