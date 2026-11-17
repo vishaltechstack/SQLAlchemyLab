@@ -35,27 +35,6 @@ SQL-Tut/
 ├── json_operations.sql
 ├── users_and_permissions.sql
 ├── scheduled_events_and_locks.sql
-├── projects/                                  # End-to-End SQL Case Studies
-│   ├── Airline Reservation & Flight Analytics/
-│   ├── Banking Customer Transactions/
-│   ├── E-commerce Delivery Performance/
-│   ├── Employee Workforce Analysis/
-│   ├── Food Delivery Platform/
-│   ├── Gaming Leaderboard System/
-│   ├── Hospital Patient Records/
-│   ├── Hotel Reservation System/
-│   ├── Library Borrowing System/
-│   ├── Loan Management & Credit Analysis/
-│   ├── Logistics & Warehouse System/
-│   ├── Movie Rating Database/
-│   ├── Music Streaming Platform/
-│   ├── Online Learning Platform/
-│   ├── Real Estate Property Management/
-│   ├── Retail Inventory Control/
-│   ├── Sales Insight Tracker/
-│   ├── Social Media Engagement Analyzer/
-│   ├── Telecom Call Records/
-│   └── University Student Performance/
 └── README.md
 ```
 
@@ -135,35 +114,6 @@ SQL-Tut/
 | **`json_operations.sql`** | Native JSON Storage | `JSON` column type, `JSON_OBJECT`, `JSON_ARRAY`, path extraction (`->>`), `JSON_CONTAINS`, partial updates with `JSON_SET` |
 | **`users_&_permissions.sql`** | Security & DCL | `CREATE USER`, `GRANT` (Principle of Least Privilege), `FLUSH PRIVILEGES`, `SHOW GRANTS`, `REVOKE`, `DROP USER` |
 | **`scheduled_events_&_locks.sql`** | Jobs & Concurrency | Global `event_scheduler`, recurring `CREATE EVENT` cleanup jobs, pessimistic row-level locking (`SELECT ... FOR UPDATE`) |
-
----
-
-## 🚀 Real-World SQL Capstone Projects (`projects/`)
-
-Each folder inside [`./projects/`](./projects/) contains a complete database schema, sample dataset, and analytical/operational SQL queries tailored to a specific industry domain:
-
-| # | Project Folder | Domain | Core SQL Focus |
-| :--- | :--- | :--- | :--- |
-| **01** | [**Airline Reservation & Flight Analytics**](./projects/Airline%20Reservation%20%26%20Flight%20Analytics) | Aviation & Travel | Seat occupancy rates, route revenue joins, flight delay aggregations |
-| **02** | [**Banking Customer Transactions**](./projects/Banking%20Customer%20Transactions) | FinTech & Banking | ACID fund transfers, fraud anomaly detection, running account balances |
-| **03** | [**E-commerce Delivery Performance**](./projects/E-commerce%20Delivery%20Performance) | E-Commerce | SLA SLA breach tracking, courier turnaround metrics, `DATEDIFF` delivery KPIs |
-| **04** | [**Employee Workforce Analysis**](./projects/Employee%20Workforce%20Analysis) | HR Analytics | Department attrition rates, salary percentile ranking, tenure cohorts |
-| **05** | [**Food Delivery Platform**](./projects/Food%20Delivery%20Platform) | On-Demand Delivery | Restaurant order volume, peak-hour demand, rider dispatch & rating queries |
-| **06** | [**Gaming Leaderboard System**](./projects/Gaming%20Leaderboard%20System) | Gaming | Global & seasonal rankings (`DENSE_RANK`, `ROW_NUMBER`), win-rate CTEs |
-| **07** | [**Hospital Patient Records**](./projects/Hospital%20Patient%20Records) | Healthcare | Doctor-patient scheduling, treatment billing, diagnosis frequency reports |
-| **08** | [**Hotel Reservation System**](./projects/Hotel%20Reservation%20System) | Hospitality | Date-overlap room availability checks, seasonal pricing, occupancy views |
-| **09** | [**Library Borrowing System**](./projects/Library%20Borrowing%20System) | Education & Admin | Overdue fine triggers, member borrowing limits, inventory availability |
-| **10** | [**Loan Management & Credit Analysis**](./projects/Loan%20Management%20%26%20Credit%20Analysis) | Credit & Lending | EMI repayment schedules, default risk segmentation (`CASE WHEN`), interest totals |
-| **11** | [**Logistics & Warehouse System**](./projects/Logistics%20%26%20Warehouse%20System) | Supply Chain | Multi-warehouse stock transfers, shipment tracking, reorder threshold alerts |
-| **12** | [**Movie Rating Database**](./projects/Movie%20Rating%20Database) | Media & Entertainment | Weighted user ratings, genre leaderboards, top-rated director subqueries |
-| **13** | [**Music Streaming Platform**](./projects/Music%20Streaming%20Platform) | Digital Media | Listener play-count trends, artist royalty calculations, playlist joins |
-| **14** | [**Online Learning Platform**](./projects/Online%20Learning%20Platform) | EdTech | Course completion funnels, instructor revenue shares, quiz score analytics |
-| **15** | [**Real Estate Property Management**](./projects/Real%20Estate%20Property%20Management) | PropTech | Lease expiration alerts, property yield analysis, tenant payment history |
-| **16** | [**Retail Inventory Control**](./projects/Retail%20Inventory%20Control) | Retail | Stock-out triggers, supplier lead-time evaluation, dead-stock identification |
-| **17** | [**Sales Insight Tracker**](./projects/Sales%20Insight%20Tracker) | Business Intelligence | Month-over-month revenue growth (`LAG`), regional sales rep quotas |
-| **18** | [**Social Media Engagement Analyzer**](./projects/Social%20Media%20Engagement%20Analyzer) | Social Analytics | Viral post engagement rates, follower growth trends, active user retention |
-| **19** | [**Telecom Call Records**](./projects/Telecom%20Call%20Records) | Telecommunications | Call detail record (CDR) duration summaries, roaming charges, plan usage |
-| **20** | [**University Student Performance**](./projects/University%20Student%20Performance) | Higher Education | GPA calculations, department topper rankings, attendance vs. grade correlation |
 
 ---
 
