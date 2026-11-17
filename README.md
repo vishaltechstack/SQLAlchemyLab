@@ -12,7 +12,7 @@ A hands-on, modular **MySQL 8.0+ curriculum** designed to take you from creating
 ## 📂 Repository Structure
 
 ```text
-mysql-mastery-tutorial/
+SQL-Tut/
 ├── database_setup.sql
 ├── tables_and_data_types.sql
 ├── constraints_and_keys.sql
