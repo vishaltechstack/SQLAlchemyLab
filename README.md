@@ -148,8 +148,8 @@ Explore My Other SQL Repositories
 
 | Repository | Tech Stack | Description |
 | :--- | :--- | :--- |
-| [**SQLForge**](https://github.com/vishaltechstack/SQLForge) | `MySQL 8.0+` `20 Domain Projects` | End-to-end relational database portfolio featuring 20 industry case studies with DDL schemas, seed datasets, and analytical queries. |
-| [[**QueryCraft**](https://github.com/vishaltechstack/QueryCraft) | `SQL` `Problem Solving` `Joins & CTEs` | Daily hands-on SQL coding challenges and query-building practice problems to sharpen relational logic. |
+| [![SQLForge](https://img.shields.io/badge/SQLForge-20_Projects-FF6F00?style=for-the-badge&logo=mysql&logoColor=white&labelColor=181717)](https://github.com/vishaltechstack/SQLForge)
+| [**QueryCraft**](https://github.com/vishaltechstack/QueryCraft) | `SQL` `Problem Solving` `Joins & CTEs` | Daily hands-on SQL coding challenges and query-building practice problems to sharpen relational logic. |
 
 ---
 
