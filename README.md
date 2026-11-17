@@ -194,6 +194,14 @@ Each folder inside [`./projects/`](./projects/) contains a complete database sch
                            +--------------------+
 ```
 
+## 🔗 Explore Other Related Repositories
+
+| Repository | Tech Stack | Description |
+| :--- | :--- | :--- |
+| [**Java-Automation-Lab**](https://github.com/<your-username>/Java-Automation-Lab) | `Java` `Selenium` `TestNG` `Maven` | Hybrid UI & API test automation framework using Page Object Model, REST Assured, and Extent Reports. |
+| [**Core-Java-Mastery**](https://github.com/<your-username>/Core-Java-Mastery) | `Core Java` `JDBC` `OOP` | Step-by-step Core Java programming roadmap covering collections, streams, multithreading, and JDBC. |
+| [**Manual-Testing-Portfolio**](https://github.com/<your-username>/Manual-Testing-Portfolio) | `QA` `SDLC` `Test Cases` | End-to-end manual QA artifacts including SRS analysis, test plans, bug reports, and RTM documentation. |
+
 ---
 
 ## 👨‍💻 Author
